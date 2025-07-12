@@ -38,8 +38,40 @@ header{
 .header-banner h1{
     font-size: 72px;
 }
+/* New Year Section Style */
+.new-year{
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.new-year img{
+    width: 100%;
+}
+.new-year h2{
+    font-size: 80px;
+    text-align: center;
+    color: red;
+}
+.new-year .new-year-container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px 20px;
+}
+.category{
+text-align: center;
+}
+.category h4{
+    font-size: 24;
+    color: red;
+}
 
-
+.category h3{
+    font-size: 32px;
+    color: black;
+    font-weight: 700;
+}
 
 
 
