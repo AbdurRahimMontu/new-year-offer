@@ -134,7 +134,6 @@ header {
   margin: 0 auto;
   height: 400px;
   background-image: linear-gradient(#ff00001a, #ff000000);
-
   position: relative;
 }
 .date {
@@ -144,7 +143,6 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,6 +168,74 @@ header {
   color: white;
 }
 
-hide {
+/* Coming Soon Section  */
+.best-offer-container{
+    max-width: 1200px;
+    height: 400px;
+    margin: 80px auto;
+}
+
+.best-offer{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-offer-left{
+width: 400px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.best-offer-left h2{
+    font-size: 30px;
+}
+.best-offer-left h3{
+    font-size: 16px;
+    color: red;
+}
+.best-offer-middle{
+width: 400px;
+height: 400px;
+ position: relative;
+}
+.best-offer-right{
+width: 400px;
+display: flex;
+flex-direction: column;
+padding: 0px 50px;
+gap: 20px;
+}
+.best-offer-right h3{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+}
+.best-offer-right p, .best-offer-left p{
+  font-size: 18px;
+  opacity: 0.5;
+}
+.best-offer-middle{
+ width: 400px;
+ height: 400px;
+ border-radius: 50%;
+ position: relative;
+background-color: red;
+
+}
+.best-offer-middle .photo{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid white;  
+}
+
+
+.hide {
   display: none;
 }
