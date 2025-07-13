@@ -234,8 +234,64 @@ background-color: red;
     transform: translate(-50%, -50%);
     border: 20px solid white;  
 }
+/* Discount Style */
+.discount-container{
+    max-width: 1200px;
+    margin: 50px auto;
 
+    background-image: url('images/Rectangle 2.png');
+    background-repeat: no-repeat;
 
+    background-position: bottom right;
+
+    
+}
+
+.discount-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.discount-content h4{
+    font-size: 20px;
+}
+.discount-content h2{
+    font-size: 50px;
+    font-weight: 900;
+}
+.discount-content h2 span{
+   color: red;
+   font-family: var(--merriweather) ;
+}
+.discount-content p{
+    text-align: center;
+}
+.discount-image{
+
+    width: 60%;
+}
+.discount-image img{
+    width: 100%;
+}
+.image-container{
+    display: flex;
+}
+.discount-image2{
+   
+    width: 40%;
+    position: relative;
+}
+.discount-image2 img{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+   
+
+}
 hide {
   display: none;
 }
